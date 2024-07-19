@@ -1,4 +1,4 @@
-DogDev
+
 Bem-vindo ao repositório do DogDev! Este projeto consiste em um site para uma empresa especializada em produtos para cães.
 O site contém várias seções, incluindo um banner principal, área de produtos, posts explicativos sobre os produtos, newsletter e FAQ.
 
