@@ -1,0 +1,45 @@
+.newletter {
+    padding: 5rem 0;
+    background-color: var(--foreground);
+    margin-top: 4rem;
+}
+
+.newletter .container {
+    padding: 0 3rem;
+}
+
+.newletter h2 {
+    font-family: "Grandstander", sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    letter-spacing: -0.1rem;
+    margin-bottom: 2rem;
+}
+
+.newletter h2 span {
+    color: var(--secondary);
+}
+
+.newletter form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.newletter input {
+    flex: 1;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid var(--secondary);
+    font-size: 2rem;
+    background-color: var(--foreground);
+    outline: none;
+}
+
+@media (width > 600px) {
+    .newletter form {
+        flex-direction: row;
+        max-width: 60rem;
+    }
+}
